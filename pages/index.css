@@ -98,3 +98,47 @@ margin: 0;
  .nav__link:hover {
   opacity: 0.5;
 }
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitle {
+  margin: 24px 0 0;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.recipes__videos-caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
