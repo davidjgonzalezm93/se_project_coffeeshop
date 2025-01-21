@@ -2,17 +2,24 @@
     display: flex;
     justify-content: space-between;
     font-weight: 500;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+
   }
 
    .nav__logo{
     position: relative;
     left: -50px;
+
   }
    .nav__links {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    gap: 20px;
   }
 
    .nav__link {
@@ -20,7 +27,7 @@
     text-decoration: none;
     transition: opacity 0.5s;
     cursor: pointer;
-    column-gap: 20px;
+
   }
 
    .nav__link:hover {
