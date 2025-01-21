@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    font-weight: 500;
   }
 
    .nav__logo{
@@ -19,6 +20,7 @@
     text-decoration: none;
     transition: opacity 0.5s;
     cursor: pointer;
+    column-gap: 20px;
   }
 
    .nav__link:hover {
